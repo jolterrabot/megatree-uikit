@@ -1874,13 +1874,13 @@ var Icon$P = function (props) {
 
 var images = Object.freeze({
     logoTextNewDark: {
-        src: '/images/egg/LogoTextNewDark.png',
-        alt: 'Logo Text New Dark'
+        src: "/images/egg/LogoTextNewDark.png",
+        alt: "Logo Text New Dark",
     },
     logoTextNewWhite: {
-        src: '/images/egg/LogoTextNewWhite.png',
-        alt: 'Logo Text New White'
-    }
+        src: "/images/egg/LogoTextNewWhite.png",
+        alt: "Logo Text New White",
+    },
 });
 
 var Logo = function (_a) {
