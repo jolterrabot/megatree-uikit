@@ -10,7 +10,7 @@ const images = Object.freeze({
   egg9: {
     src: "/images/egg/9.png",
     alt: "Egg 9",
-  }
+  },
 });
 
 export default images;
