@@ -2,7 +2,7 @@ import React from "react";
 import styled, { keyframes } from "styled-components";
 import { SpinnerProps } from "./types";
 import { Svg, SvgProps } from "../Svg";
-
+import images from '../../util/images'
 const rotate = keyframes`
   from {
     transform: rotate(0deg);
@@ -15,7 +15,7 @@ const rotate = keyframes`
 const SpinnerIcon: React.FC<SvgProps> = (props) => {
   return (
     <Svg viewBox="0 0 96 96" {...props}>
-      <image width="96" height="96" href="/images/egg/9.png" />
+      <image width="96" height="96" href={images.egg9.src} alt="spinner" />
     </Svg>
   );
 };
